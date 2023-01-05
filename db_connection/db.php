@@ -11,9 +11,9 @@ class Db
     public function connect()
     {   
 
-        $this->servername = "localhost";
-        $this->dbname = "sampleselling";
-        $this->password = "ragJN100Mania";
+        $this->servername = "ourdb.cbvpejuaz9mq.us-east-2.rds.amazonaws.com";
+        $this->dbname = "ourdb";
+        $this->password = "Bhargav#123";
         $this->port = 3306;
         $this->username = "root";
 
